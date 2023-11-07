@@ -63,7 +63,7 @@ let username;
 document.getElementById("btn").onclick = function(){
     username = document.getElementById("mytext").value;
     console.log(username);
-    document.getElementById("H1").textContent = `Hello ${username}`
+    document.getElementById("H3").textContent = `Hello ${username}`
 }
 
 let age =  window.prompt("How old are you");
@@ -82,9 +82,28 @@ z = Boolean(z);
 
 console.log(x, typeof x);
 console.log(y, typeof y);
-console.log(z, typeof z); */
+console.log(z, typeof z); 
+
+const PI = 3.14159;
+let r;
+let c;
+
+document.getElementById("btn").onclick = function(){
+    r = document.getElementById("txt").value;
+    r = Number(r);
+    c = 2 * PI * r;
+    document.getElementById("H3").textContent = c;
+}
 
 
+let username;
+
+document.getElementById("btn").onclick = function(){
+    username = document.getElementById("txt").value;
+    console.log(username);
+    document.getElementById("H3").textContent = `Hello ${username}`;
+}
+*/
 
 
 
